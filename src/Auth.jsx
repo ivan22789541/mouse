@@ -36,5 +36,5 @@ const Auth = () => {
         </>
     )
 }
-а
+
 export default Auth
