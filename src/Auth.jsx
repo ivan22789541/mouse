@@ -24,17 +24,17 @@ const Auth = () => {
                 <form action="#">
                     <button type='sumbit'>
                         {isLogin ? 'Войти' : 'Зарегистрироваться'}
-                        </button>
+                    </button>
                 </form>
                 {isLogin ? <div>
                     Нет аккаунта? <NavLink to={REG_ROUTER}>Зарегистрируйтесь!</NavLink>
                 </div> :
-                <div>
-                    Есть аккаунт? <NavLink to={LOGIN_ROUTER}>Войдите!</NavLink>
-                </div>}
+                    <div>
+                        Есть аккаунт? <NavLink to={LOGIN_ROUTER}>Войдите!</NavLink>
+                    </div>}
             </div>
         </>
     )
 }
-
+а
 export default Auth
